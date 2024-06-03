@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(''); /* Fondo de pantalla */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-color: rgba(240, 240, 240, 0.8); 
+            scroll-behavior: smooth; 
+        }
+        
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            padding: 2%;
+            text-align: center;
+            transition: background-color 0.3s ease; 
+        }
+        
+        header:hover {
+            background-color: rgba(85, 85, 85, 0.8); 
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 2%;
+            transition: transform 0.3s ease; 
+        }
+        
+        nav ul li:hover {
+            transform: scale(1.1); 
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease; 
+        }
+        
+        nav ul li a:hover {
+            color: #ffd700; 
+        }
+        
+        main {
+            padding: 2%;
+        }
+        
+        section {
+            margin-bottom: 3%;
+            background-color: rgba(255, 255, 255, 0.8); 
+            border-radius: 10px;
+            padding: 2%;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease; 
+        }
+        
+        section:hover {
+            transform: translateY(-5px); 
+        }
+        
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 1%;
+            margin-bottom: 2%;
+        }
+        
+        section p {
+            color: #555;
+        }
+        
+        footer {
+            background-color: rgba(51, 51, 51, 0.8); 
+            color: #fff;
+            text-align: center;
+            padding: 1%;
+            bottom: 0;
+            width: 100%;
+        }
+        
+       
+        .contact-info i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a Mi Página Web!</h1>
+        <nav>
+            <ul>
+                <li><a href="#apuesta">Apuesta</a></li>
+                <li><a href="#historial">Historial de Apuestas</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="apuesta">
+            <h2>Apuesta</h2>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYNG7j-ztik_KND1j_Jaxi3c3Ght_jlbFS18lCKNv_8bDY1A/viewform?embedded=true" width="340px" height="330px%" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+        </section>
+        
+        <section id="historial">
+            <h2>Historial de Apuestas</h2>
+            <a href="https://docs.google.com/spreadsheets/d/14tuPW7W0Wm6QNQys7lqRpfSmXzWSN22CjE1cxslbLw8/edit?usp=sharing">Ve tus reultados</a>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>Derechos de autor © 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
